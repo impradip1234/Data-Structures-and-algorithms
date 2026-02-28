@@ -1,3 +1,3 @@
- vector<int>a{1,2,3};
-    vector<int>b{4,5,6};
-    vector<int>c{7,8,9};
+for(int i=0;i<n;i++){
+    //     cin>>vec[i];
+    // }
