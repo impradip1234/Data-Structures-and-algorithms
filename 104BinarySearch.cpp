@@ -1,4 +1,7 @@
 #include<iostream>
+#include<vector>
+#include<algorithm>
+
 using namespace std;
     int BinarySearch(int arr[],int n,int key){
         int start=0;
@@ -29,4 +32,13 @@ int main(){
     else{
         cout<<"element not found.";
     }
+//inbuilt function for binary search ............
+
+    // vector<int>v{1,2,3,4,5,6,7};
+    // if(binary_search(v.begin(),v.end(),5)){
+    //     cout<<"found";
+    // }
+    // else{
+    //     cout<<"not found";
+    // }
 }
