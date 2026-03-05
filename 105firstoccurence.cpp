@@ -36,11 +36,13 @@ int main()
 {
     int arr[7] = {2, 3, 4, 4, 5, 5, 7};
     int n = sizeof(arr) / sizeof(int);
-    int key = 4;
+    int key = 5;
 
     // searching like binary with little difference
     int ans = FirstOccurence(arr, n, key);
-
     cout << "first occurence is at index: " << ans;
+    //inbuilt function 
+    // auto ans=lower_bound(arr,arr+n,key);
+    // cout << "first occurence is at index: " << ans-arr;
     return 0;
 }
