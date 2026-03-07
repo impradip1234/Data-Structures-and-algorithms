@@ -5,7 +5,7 @@ int findsqrt(int n){
     int start=0;
     int end=n;
     int ans=-1;
-    while(start<end){
+    while(start<=end){
         int mid=(start+end)/2;
         if((mid*mid)==n){
             ans=mid;
