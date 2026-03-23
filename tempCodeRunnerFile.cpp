@@ -1,2 +1,8 @@
-int arr[5]={30,11,23,4,20};
-    // int h=5;
+int getlenght(char name[]){
+    int length=0;
+    for(int i=0;i<100;i++){
+        if(name[i]=='\0'){
+            return i;
+        }
+    }
+}
