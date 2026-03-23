@@ -18,7 +18,5 @@ int main(){
     MakeItCapital(ch);
     // cout<<int('a'); // 97...
     // cout<<int('A'); //  65....
-
     cout<<ch;
-
 }
