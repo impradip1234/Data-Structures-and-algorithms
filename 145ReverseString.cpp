@@ -13,6 +13,5 @@ int main(){
         start++;
         end--;
     }
-
     cout<<ch;
 }
