@@ -18,7 +18,6 @@ int main(){
         else{
             count=0;
         }
-        
     }
     cout<<absent<<endl;
     cout<<consu_late;
